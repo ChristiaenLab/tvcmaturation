@@ -14,6 +14,9 @@ $(GFF):
 	wget -U firefox $(URL)$(ZIP)
 	unzip -o $(ZIP)
 
+DAmotifs:
+	gunzip DAmotifs.csv.gz
+
 peakToGene:
 	git clone https://github.com/kewiechecki/peakToGene
 
